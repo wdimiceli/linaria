@@ -94,7 +94,7 @@
     "react-is": "^16.8.3",
     "rollup-pluginutils": "^2.4.1",
     "source-map": "^0.7.3",
-    "strip-ansi": "^5.0.0",
+    "strip-ansi": "5.1.0",
     "stylis": "^3.5.4",
     "yargs": "^13.2.1"
   },
