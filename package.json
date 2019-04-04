@@ -93,7 +93,7 @@
     "normalize-path": "^3.0.0",
     "postcss": "^7.0.14",
     "react-is": "^16.8.3",
-    "rollup-pluginutils": "^2.4.1",
+    "rollup-pluginutils": "2.5.0",
     "source-map": "^0.7.3",
     "strip-ansi": "^5.0.0",
     "stylis": "^3.5.4",
