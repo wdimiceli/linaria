@@ -1176,10 +1176,10 @@ ajv@^6.9.1:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-all-contributors-cli@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.1.1.tgz#6c0cc6318d6f5d19c2c4cca35d2306ff25f993d3"
-  integrity sha512-4Bzx/dphSydqnOostzVCxYStkfaz0AsXq3Spyuw3vAEOckr/jgHmwIXWZ6/Vjqdmc/TA5Ue2P2UlqknA/Ewq4A==
+all-contributors-cli@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.3.1.tgz#0dd12d026f31827035da924e0fe752cec7ed0e3f"
+  integrity sha512-v0M4HqSMPyoaBZptqd91GUkjUN7IaOBhBLkGVEbuNF/j+PIMN6hnTlI/8rj6P/Ofc6Y4qNtmjktqPmwqajk6DA==
   dependencies:
     "@babel/runtime" "^7.2.0"
     async "^2.0.0-rc.1"
@@ -1188,7 +1188,7 @@ all-contributors-cli@^6.1.1:
     lodash "^4.11.2"
     pify "^4.0.1"
     request "^2.72.0"
-    yargs "^12.0.5"
+    yargs "^13.1.0"
 
 ansi-align@^2.0.0:
   version "2.0.0"
