@@ -137,9 +137,15 @@ export default function TaggedTemplateExpression(
     )}`
   );
 
-  const className = options.displayName
-    ? `${toValidCSSIdentifier(displayName)}_${slug}`
-    : slug;
+  let className = slug;
+  // Form a more readable className, allowing users to override if necessary
+  if (options.displayName) {
+    if (typeof options.displayName === 'function') {
+      className = options.displayName(displayName, slug, path, state);
+    } else {
+      className = `${toValidCSSIdentifier(displayName)}_${slug}`;
+    }
+  }
 
   // Serialize the tagged template literal to a string
   let cssText = '';
